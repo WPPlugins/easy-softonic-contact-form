@@ -1,0 +1,242 @@
+/*
+    Document   : escf-styles-admin
+    Created on : Oct 9, 2012, 2:06:08 PM
+    Author     : Umair Saleem
+    Description:
+        Styles for Admin section of Easy Softonic Contact Form
+*/
+
+div.fcs-star-holder { position: relative; height:19px; width:100px; font-size:19px;}
+div.fcs-star {height: 100%; position:absolute; top:0px; left:0px; background-color: transparent; letter-spacing:1ex; border:none;}
+.fcs-star1 {width:20%;} .fcs-star2 {width:40%;} .fcs-star3 {width:60%;} .fcs-star4 {width:80%;} .fcs-star5 {width:100%;}
+.fcs-star.fcs-star-rating {background-color: #fc0;}
+.fcs-star img{display:block; position:absolute; right:0px; border:none; text-decoration:none;}
+div.fcs-star img {width:19px; height:19px; border-left:1px solid #fff; border-right:1px solid #fff;}
+fieldset.escf_field_settings {padding:12px; margin: 0 0 20px 0;}
+fieldset.escf_field {padding:4px;margin:4px;cursor: move;}
+fieldset.escf_field legend {padding:4px;}
+fieldset.escf_field > select {width:14em;}
+fieldset.escf_option {padding:10px;}
+/*  See Edits made below by Zack Katz */
+/*
+#escf-optionsform fieldset {border: 1px solid #A9A9A9; background: #F1F1F1; font:13px Arial, Helvetica, sans-serif;}
+.form-tab {background:#F1F1F1; display:block; font-weight:bold; padding:7px 20px; float:left; font-size:13px; margin-bottom:-1px; border:1px solid #B8B8B8; border-bottom:none;}
+.ui-tabs-panel > h3 {background:#F1F1F1; display:block; font-weight:bold; padding:7px 20px; float:left; font-size:13px; margin-bottom:-1px; border:1px solid #B8B8B8; border-bottom:none;}
+*/
+.submit {padding:7px; margin-bottom:15px;}
+.esc-error{background-color:#ffebe8;border-color:red;border-width:1px;border-style:solid;padding:5px;margin:5px 5px 20px;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.esc-error a{color:#c00;}
+
+.esc-notice{background-color:#ffffe0;border-color:#e6db55;border-width:1px;border-style:solid;padding:5px;margin:5px 5px 10px;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.esc-success{background-color:#E6EFC2;border-color:#C6D880;border-width:1px;border-style:solid;padding:5px;margin:5px 5px 20px;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+/*.vcita-label{width: 93px; display: block; float: left; margin-top: 4px;}*/
+.escf-save-notice{display:none;}
+.escf_right { clear:right; float:right;}
+.escf_left {clear:left; float:left;}
+.escf_clear {clear:both;}
+.escf_clear_left {clear:left;}
+.escf-field-left {clear:left; float:left; margin-right:10px;}
+.escf-field-follow {float:left; padding-left:10px;}
+.escf-clear {clear:both;}
+.escf_img {margin:0 10px 10px 0;}
+/*.escf_left img {margin:0 10px 10px 0;}*/
+.escf_donate, .escf_ad {width:300px;/*height:180px;*//* background-color:white;*/ padding: 10px; margin-left:10px; border: 1px solid #ddd; background-color:#FFFFE0; overflow:hidden;}
+.escf_sidebar {width:385px; padding: 10px 10px 10px 10px; }
+.escf_ad h3 { margin: 0.5em 0;}
+.escf_tab_content {margin-right: 10%;}
+.escf_select_form {padding: 8px 0 8px;}
+.escf_settings_group {padding: 8px;}
+.escf_settings_group a {color:#21759b;text-decoration:underline;}
+input.button-warning, a.button-warning, input.button-warning:hover {
+  background: #A60000;
+  border-color: #BB0000;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  /*cursor:pointer;*/
+}
+.escf_warning_text {color:red;}
+.escf_tip {text-align:left; display:none;color:#006B00;padding:5px;}
+.escf_style_text { width:90%; min-width:250px; }
+.escf_style_inline{ width:99%; display:inline-block; }
+.escf_checkbox_inline{ display:inline; }
+.escf_field_details {display:none;}
+.escf_statbox {float:right; margin:8px;}
+.updated {overflow:auto;}
+.error {overflow:auto;}
+ul#tab-list {visibility: hidden;}
+ul#tab-list li {display:inline;}
+/*li.ui-state-atcive a:focus, li.ui-state-atcive a:active {outline:none !important;}*/
+a:focus {outline:none !important;}
+#ctf-loading {
+	display: none;
+/*	position: absolute;
+	left: 0;
+	top: 0;*/
+}
+.escf_centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.escf_sample_ad {
+	height: 120px;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 70px;
+}
+
+
+/**
+ * Added by Zack Katz with KWS
+ */
+
+ .wpbody-content { font:13px HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+/* Tabs & jQuery UI */
+.ui-widget-content { border: none; }
+.ui-tabs .ui-tabs-panel { border: 1px solid; border-top: 0; }
+.ui-tabs .ui-tabs-nav li { border-radius: 0; margin-right: 5px; }
+.ui-tabs .ui-tabs-nav li:first-child { margin-left: -2px; }
+.ui-tabs .ui-tabs-panel, .form-tab, .ui-widget-header, .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border-color: #cdcdcd;  }
+.ui-widget-header { border-radius: 0; background: none; border-top: none; border-left: none; border-right: none; }
+
+/**
+ * Tab content
+ */
+#escf-optionsform fieldset {border: 1px solid #91C385;
+background: #FEFDF7 none repeat scroll 0% ; padding: 10px 10px 15px; }
+
+/* Sortable fields in Fields tab */
+#escf-optionsform fieldset fieldset {border: none; border-bottom: 1px solid #ccc; }
+#escf-optionsform fieldset fieldset:last-child {border: none; }
+#escf-optionsform fieldset.ui-sortable fieldset { border-bottom: 2px dotted #5E5E5E}
+#escf-optionsform fieldset fieldset legend { padding: 10px 0 0;}
+.escf_field_details { background: #eee; padding: 10px 15px; border: 1px dotted #ccc; border-top: none; border-bottom: 4px solid #ddd; margin-top: 5px;}
+.form-tab { display: none; background:#eee; display:block; font-weight:bold; padding:7px 20px; float:left; font-size:13px; margin-bottom:-1px; border:1px solid; border-bottom:none;}
+.ui-tabs-panel > h3 { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif; display:block; font-weight:100; padding:7px 20px 7px 0; float:left; font-size:20px; margin-bottom:-.1em; }
+
+/**
+ * End added by Zack Katz with KWS
+ */
+
+/**
+ * Vcita Options classes
+ */
+.vcita-btn-label{ width: 120px; display: block; float: left; line-height: 24px; }
+.vcita_options_container { max-width:100%; }
+.vcita_inner_box { padding-left:0px; }
+.scheduling_button_box { padding-left:15px; }
+.active_enage_help_tip { padding-left:17px; }
+.privacy_box { float:right; }
+.privacy_box a { cursor:pointer; }
+.scheduler_not_conected_note { margin-top:10px; background: #F9CB9C; border: 1px solid #ccc; padding:5px;}
+.vcita-label { width:100px; }
+.contact_vcita_email_tip { text-align:left; display:none }
+.vcita-help { cursor: pointer; vertical-align: middle;}
+.vcita-chkbox {vertical-align: middle !important;}
+
+#escf-tab9, #kws_message{
+	
+	display:none !important; /***newsletter and their contents**/
+	
+	
+}
+
+.escf_donate, .escf_ad{
+	
+	display:none !important; /***basic setting add**/
+}
+
+
+/******************************************************/
+
+.button-primary {
+    background: #3197E1 !important;
+    border-color: #3197E1 !important;
+    color: #FFF !important;
+    text-decoration: none !important;
+	border-radius: 1px !important;
+    box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15) !important;
+}
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #21B056 !important;
+    border-color: #21B056 !important;
+    color: #FFF !important;
+    text-decoration: none !important;
+	border-radius: 1px !important;
+    box-shadow: 0px 1px 0px rgba(120, 200, 230, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15) !important;
+}
+
+.ui-tabs-anchor{
+	
+	color: #FFF;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	
+	color: #000;
+}
+
+
+input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="radio"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea{
+	
+	
+	border: 1px solid #ccc;
+	transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out;
+-webkit-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out 0s;
+behavior: url("PIE.htc");
+	
+}
+
+input[type="checkbox"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="radio"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, select:focus, textarea:focus{
+	
+	border: 1px solid #3197E1;
+	-moz-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3), 0 0 3px #3197E1;
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3), 0 0 3px #3197E1;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3), 0 0 3px #3197E1;
+
+	
+	
+}
+
+
+
+#escf-tabs .ui-tabs-nav {
+    border-bottom: 2px solid #DDD;
+    background: #fff !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+    #escf-tabs .ui-tabs-nav > li.active > a, #escf-tabs .ui-tabs-nav > li.active > a:focus, #escf-tabs .ui-tabs-nav > li.active > a:hover { border-width: 0; }
+    .ui-tabs-nav > li > a { border: none; color: #666 !important; font-weight: 600; font-family: open sans !important; }
+        #escf-tabs .ui-tabs-nav > li.active > a, #escf-tabs .ui-tabs-nav > li > a:hover { border: none; color: #4285F4 !important; background: transparent; }
+        #escf-tabs .ui-tabs-nav > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+    #escf-tabs .ui-tabs-nav > li.active > a::after, #escf-tabs .ui-tabs-nav > li:hover > a::after { transform: scale(1); }
+#escf-tabs .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:20px}
+
+.card {background: #FFF none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); margin-bottom: 30px; }
+
+.ui-tabs .ui-tabs-nav li {
+   
+    background: #fff;
+}
+
+.ui-state-active a, .ui-state-active a:active {
+    background: #FFF !important;
+    color: #4285F4 !important;
+    text-decoration: none;
+	font-weight: 600;
+
+}
+

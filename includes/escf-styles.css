@@ -1,0 +1,13 @@
+/*
+    Document   : escf-styles
+    Created on : Nov 26, 2012, 11:24:31 AM
+    Author     : Umair Saleem
+    Description:
+        Styles for contact form display.
+*/
+/* these styles also need to be copied to styles-admin.css */
+/*.escf-right { clear:right; float:right;}*/
+.escf-field-left {clear:left; float:left; margin-right:10px;}
+.escf-field-follow {float:left; padding-left:10px;}
+.escf-clear {clear:both;}
+/* div.escf-container label {color:#333333;} */
